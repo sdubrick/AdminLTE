@@ -1,2 +1,2 @@
 include: ['_all-skins.min.css','user2-160x160.jpg']
-destination: ./_site
+destination: /AdminLTE/
