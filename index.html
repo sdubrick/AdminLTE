@@ -41,7 +41,9 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
   <!-- #include virtual="/parts/common-header.html" -->
+  {% include_relative /parts/common-header.html %}
   <!-- #include virtual="/parts/common-menu.html" -->
+  {% include_relative /parts/common-menu.html %}
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -564,6 +566,7 @@
   </div>
   <!-- /.content-wrapper -->
   <!-- #include virtual="/parts/common-footer.html" -->
+  {% include_relative /parts/common-footer.html %}
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
